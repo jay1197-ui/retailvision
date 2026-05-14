@@ -20,21 +20,27 @@ Inspired by production CV systems built at scale — detecting products, reading
 
 ## 🏗️ Architecture
 Input Image
+
 ↓
 
 Preprocessing (CLAHE, resize, augmentation)
+
 ↓
 
 YOLOv11 Detection (fine-tuned on retail data)
+
 ↓
 
 OCR Module (EasyOCR)
+
 ↓
 
 Embedding + Similarity Search (FAISS)
+
 ↓
 
 FastAPI REST Endpoint
+
 ↓
 
 MLflow Logging + Monitoring Dashboard
