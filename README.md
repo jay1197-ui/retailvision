@@ -48,28 +48,16 @@ MLflow Logging + Monitoring Dashboard
 ---
 
 ## 📁 Project Structure
-retailvision/
-
-│
-
+retailvision/│
 ├── data/
-
 ├── models/
-
 ├── ocr/
-
 ├── embeddings/
-
 ├── api/
-
 ├── monitoring/
-
 ├── experiments/
-
 ├── docker/
-
 ├── notebooks/
-
 └── README.md
 
 ---
